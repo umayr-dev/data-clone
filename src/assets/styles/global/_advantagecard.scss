@@ -1,0 +1,35 @@
+.advantage{
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    &-title{
+        font-size: 45px;
+        padding-left: 60px;
+    }
+    &-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-card{
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 30px;
+        border-bottom: 3px solid  rgb(68, 193, 240,);;
+        padding: 12px 5px 12px 0;
+        h1{
+            line-height: 24.6px;
+            font-size: 26px;
+        }
+        p{
+            font-size: 17px;
+            color: gray;
+            font-family: sans-serif;
+        }
+    }
+}

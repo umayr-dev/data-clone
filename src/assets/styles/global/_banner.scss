@@ -1,0 +1,45 @@
+.banner{
+    margin: 50px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-content{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 10px;
+        h1{
+            font-size: 45px;
+            line-height: 78.5px;
+        }
+        p{
+            color: gray;
+        }
+        button{
+            width: 260px;
+            height: 50px;
+            border: 1px solid rgb(68, 193, 240,);
+            background-color: rgb(68, 193, 240,);
+            color: white;
+            border-radius: 28px;
+            margin: 30px 0;
+            font-size: 16px;
+            transition: all 0.2s ease-in-out;
+            font-weight: 600;
+            &:hover{
+                background-color: rgb(127, 205, 234);
+            }
+        }
+    }
+    &-image{
+        img{
+            width: 700px;
+            height: 580px;
+            border-radius: 5px;
+           
+        }
+    }
+}
