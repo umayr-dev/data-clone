@@ -10,11 +10,13 @@ function Courses(){
                     <div className="courses-cards">
                         {
                             Coursesdata.map((item) =>{
+                                return <>
                                 <div key={item.id} className="card">
                                     <h1>{item.title}</h1>
                                     <p>{item.subtitle}</p>
                                     <button className="card-button">Batafsil</button>
                                 </div>
+                                </>
                             })
                         }
                     </div>

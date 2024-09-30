@@ -1,5 +1,6 @@
 import React from "react";
 import { Advantagedata } from "../data";
+
 function Advantage(){
     return(
         <>

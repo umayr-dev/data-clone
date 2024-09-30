@@ -11,13 +11,41 @@
         padding: 20px 0;
         display: flex;
         justify-content: center;
-        column-gap: 40px;
+        column-gap: 20px;
         .card{
-            width: 400px;
-            height: 400px;
+            width: 320px;
+            height: 380px;
             display: flex;
             flex-direction: column;
-            
+            background-color: #c0f1ff4d;
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            row-gap: 20px;
+            align-items: center;
+
+            h1{
+                font-size: 34px;
+                color: black;
+                font-weight: 300;
+                text-align: center;
+            }
+            p{
+                font-size: 18px;
+                color: gray;
+                line-height: 25.6px;
+            }
+            button{
+                width:  140px;
+                background-color: rgb(68, 193, 240);
+                height: 40px;
+                border-radius: 22px;
+                color: white;
+                font-size: 18px;
+                &:hover{
+                    background-color: rgb(122, 205, 235);
+                }
+            }
         }
     }
 }
