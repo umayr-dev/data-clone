@@ -5,7 +5,7 @@ function Header() {
     <>
       <div className="container">
         <div className="header">
-          <img src="../public/images/logo.webp" alt="" />
+          <img src="/images/logo.webp" alt="" />
           <div className="header-navbar">
             {Headerdata.map((item) => {
               return (
