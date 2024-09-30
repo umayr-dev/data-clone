@@ -12,7 +12,7 @@ function Bannerdata(){
                 <button className="banner-context__button">Kurs Tanlash</button>
             </div>
             <div className="banner-image">
-                <img src="../public/images/room.webp" alt="" />
+                <img src="../public/images/room.webp" alt="banner-image" />
             </div>
         </section>
         </div>
