@@ -1,34 +1,4 @@
-
-export let Headerdata = [
-  {
-    id: 1,
-    title: "Asosiy",
-    slug: "/",
-  },
-  {
-    id: 2,
-    title: "Biz Haqimizda",
-    slug: "biz-haqimizda",
-
-  },
-  {
-    id: 3,
-    title: "Kurslar",
-    slug: "barcha-kurslar",
-},
-{
-    id: 4,
-    title: "Tashriflar",
-    slug: "s-projects-side-by-side",
-},
-{
-    id: 5,
-    title: "Yutuqlar",
-    slug: "s-projects-basic",
-  },
-];
-
-export let Advantagedata = [
+ export let Advantagedata = [
   {
     id: 1,
     title: "O‘quvchilarga kerakli jihozlar beriladi",
