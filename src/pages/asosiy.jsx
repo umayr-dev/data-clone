@@ -1,9 +1,16 @@
 import React from 'react'
+import Bannerdata from '../components/banner'
+import Advantage from '../components/advantage'
+import Courses from '../components/courses'
 
-function asosiy() {
+function Asosiy() {
   return (
-    <div>asosiy</div>
+    <main>
+      <Bannerdata />,
+        <Advantage   />,
+        <Courses/>
+    </main>
   )
 }
 
-export default asosiy
+export default Asosiy

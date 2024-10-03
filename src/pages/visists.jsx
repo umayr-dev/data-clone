@@ -1,9 +1,9 @@
 import React from 'react'
 
-function visists() {
+function Visists() {
   return (
     <div>visists</div>
   )
 }
 
-export default visists
+export default Visists

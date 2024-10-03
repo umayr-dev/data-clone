@@ -1,9 +1,9 @@
 import React from 'react'
 
-function kurslar() {
+function Kurslar() {
   return (
     <div>kurslar</div>
   )
 }
 
-export default kurslar
+export default Kurslar

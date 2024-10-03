@@ -1,9 +1,9 @@
 import React from 'react'
 
-function yutuqlar() {
+function Yutuqlar() {
   return (
     <div>yutuqlar</div>
   )
 }
 
-export default yutuqlar
+export default Yutuqlar

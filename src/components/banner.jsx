@@ -7,7 +7,7 @@ function Bannerdata(){
 
         <section className="banner">
             <div className="banner-content">
-                <h1>Biz bilimga to‘ldiramiz!</h1>
+                <h1 className="animation">Biz bilimga to'diramiz!</h1>
                 <p>10 dan ortiq zamonaviy sohalar bo‘yicha ta'lim oling.</p>
                 <button className="banner-context__button">Kurs Tanlash</button>
             </div>

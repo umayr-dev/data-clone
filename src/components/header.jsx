@@ -6,9 +6,9 @@ function Header() {
     <>
       <div className="container">
         <div className="header">
-          <img src="/images/logo.webp" alt="" />
+          <Link to='/'> <img src="/images/logo.webp" alt="" /> </Link>
           <div className="header-navbar">
-                <Link to='/asosiy' className="header-navbar__button">Asosiy</Link>
+                <Link to='/' className="header-navbar__button">Asosiy</Link>
                 <Link to='/bizhaqimizda' className="header-navbar__button">Biz haqimizda</Link>
                 <Link to='/kurslar' className="header-navbar__button">Kurslar</Link>
                 <Link to='/tashriflar' className="header-navbar__button">Tashriflar</Link>
