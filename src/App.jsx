@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/header";
 import Main from "./components/Main";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <main>
        <Main/> 
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 }

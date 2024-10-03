@@ -10,9 +10,9 @@ function AboutePage() {
         <h1>"DATA" bilan yaqindan tanishing!</h1>
         <p>Stansiya haqida ko‘proq ma'lumotlarni ijtimoiy <br /> tarmoqlarimizdan ham olishingiz mumkin.</p>
         <div className="social-content">
-          <a href="https://instagram.com/data_talim_stansiyasi"> <img height={22} width={22} src="/images/insta.webp" alt="" /></a>
-          <a href="https://t.me/data_talim_stansiyasi"><img width={20} height={20} src="/images/tg.webp" alt="" /></a>
-          <a href="https://youtube.com/@DATATALIMSATNSIYASI"><img width={26} height={26} src="/images/yt.webp" alt="" /></a>
+          <a href="https://instagram.com/data_talim_stansiyasi"> <img height={20} width={20} src="/images/insta.webp" alt="" /></a>
+          <a href="https://t.me/data_talim_stansiyasi"><img width={18} height={18} src="/images/tg.webp" alt="" /></a>
+          <a href="https://youtube.com/@DATATALIMSATNSIYASI"><img width={24} height={24} src="/images/yt.webp" alt="" /></a>
         </div>
       </div>
       </div>
