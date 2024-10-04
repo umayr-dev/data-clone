@@ -20,7 +20,7 @@ function Footer() {
                             Kurs tanlash(majburiy emas)
                             <input type="text " placeholder='ozingiz qiziqqan kursni yozing' />
                         </label>
-                        <button className="form-btn">Yuborish</button>
+                        <button type='submit' className="form-btn">Yuborish</button>
                     </form>
                 </div>
                 <div className="footer-content">

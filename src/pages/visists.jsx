@@ -2,7 +2,9 @@ import React from 'react'
 
 function Visists() {
   return (
-    <div>visists</div>
+    <div>
+        
+    </div>
   )
 }
 

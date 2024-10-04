@@ -5,6 +5,7 @@ import Asosiy from "../pages/asosiy";
 import Kurslar from "../pages/kurslar";
 import Visists from "../pages/visists";
 import Yutuqlar from "../pages/yutuqlar";
+import NotFound from "../pages/notfound";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
         <Route path="/kurslar" element={<Kurslar />} />
         <Route path="/tashriflar" element={<Visists />} />
         <Route path="/yutuqlar" element={<Yutuqlar />} />
+        <Route path="/*" element={<NotFound />} />
         
       </Routes>
     </main>
