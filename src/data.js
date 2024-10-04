@@ -136,9 +136,18 @@ export let AllCourses = [
   {
     id: 11,
     title: 'Ofis dasturlarida ishlash',
-    subtitle: 'Kurs davomida Microsoft Office dasturlari, Canva platformasi va hujjatlar bilan ishalshni o‘rganasiz.',
+    subtitle: 'Kurs davomida Office dasturlari, hujjatlar bilan ishalshni o‘rganasiz.',
     price: '1 200 000',
     date: '3 oy',
-    img: '/images/architect.webp'
+    img: '/images/office work.webp'
   },
-]
+
+  {
+    id: 12,
+    title: 'Backend dasturlash',
+    subtitle: 'Python dasturlash tili – ushbu kursda o‘rgatiladigan asosiy texnologiya hisoblanadi.',
+    price: '1 200 000',
+    date: '6 oy',
+    img: '/images/backend.webp'
+  }, 
+];
