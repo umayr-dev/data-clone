@@ -1,5 +1,4 @@
 import React from 'react'
-
 function AboutePage() {
   return (
     <main className="about">
@@ -16,6 +15,14 @@ function AboutePage() {
         </div>
       </div>
       </div>
+      <div className="meet">
+        <h1>Qadriyatlarimiz bilan tanishing</h1>
+        <p>Quyidagi tugma orqali, stansiyamiz qadriyatlari, maqsadi va shiori bilan tanishishingiz mumkin!</p>
+        <button className="meet-btn">Tanishish</button>
+      </div>
+
+
+
     </main>
   )
 }
